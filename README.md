@@ -1,6 +1,6 @@
 # Driver-Fatigue-Detection-with-OpenCV-and-Deep-Learning
 
-# These are the following modules used :
+## These are the following modules used in this project:
 
 ```python
 from imutils.video import VideoStream
@@ -17,14 +17,16 @@ import os
 from threading import Thread
 ```
 
-# To install the module, use pip
+## To install the module, use pip
 ```python
 pip install <module-name>
 ```
 
 
-# To run the app, enter the following code
-> python detect_faces_video.py --prototxt deploy.prototxt.txt --model res10_300x300_ssd_iter_140000.caffemodel --alarm alarm.wav
+## To run the app, enter the following code
+```python
+python detect_faces_video.py --prototxt deploy.prototxt.txt --model res10_300x300_ssd_iter_140000.caffemodel --alarm alarm.wav
+```
 
-# Reference
+## Reference
 Check out [this website](https://www.pyimagesearch.com/2017/05/08/drowsiness-detection-opencv/)
