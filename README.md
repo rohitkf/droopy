@@ -27,4 +27,4 @@ pip install <module-name>
 > python detect_faces_video.py --prototxt deploy.prototxt.txt --model res10_300x300_ssd_iter_140000.caffemodel --alarm alarm.wav
 
 # Reference
-[![N|Solid](https://www.pyimagesearch.com/2017/05/08/drowsiness-detection-opencv/)
+Check out [this website](https://www.pyimagesearch.com/2017/05/08/drowsiness-detection-opencv/)
