@@ -84,7 +84,7 @@ print ('[INFO] starting video stream...')
 
 # vs = VideoStream(src=1).start()
 
-vs = cv2.VideoCapture(1)
+vs = cv2.VideoCapture(0)
 time.sleep(2.0)
 
 # Program 2 to plot facial landmarks
