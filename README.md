@@ -1,4 +1,6 @@
-# Driver-Fatigue-Detection-with-OpenCV-and-Deep-Learning
+# Driver-Fatigue-Detection-with-OpenCV-and-Deep-Learning 
+
+## Research paper for the app : [Click here](https://github.com/rkf2778/Driver-Fatigue-Detection-with-OpenCV-and-Deep-Learning/blob/master/ICOEI_2019_paper_247.pdf)
 
 ## These are the following modules used in this project:
 
@@ -16,6 +18,19 @@ import playsound
 import os
 from threading import Thread
 ```
+
+
+Requirements.txt 
+
+```txt
+imutils==0.5.4
+numpy==1.21.5
+opencv-python==4.5.4.68
+scipy==1.7.3
+dlib==19.22.0
+playsound==1.3.0
+```
+
 
 ## To install the module, use pip
 ```python
