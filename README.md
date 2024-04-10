@@ -1,6 +1,7 @@
 # Driver-Fatigue-Detection-with-OpenCV-and-Deep-Learning 
+A state of the art face detection system, that identifies and extracts the facial features from live webcam feed, to detect whether the driver is getting tired or not.
 
-## Research paper for the app : [Click here](https://github.com/rkf2778/Driver-Fatigue-Detection-with-OpenCV-and-Deep-Learning/blob/master/ICOEI_2019_paper_247.pdf)
+Research paper for the app : [Click here](https://github.com/rkf2778/Driver-Fatigue-Detection-with-OpenCV-and-Deep-Learning/blob/master/ICOEI_2019_paper_247.pdf)
 
 ## These are the following modules used in this project:
 
@@ -19,7 +20,6 @@ import os
 from threading import Thread
 ```
 
-
 Requirements.txt 
 
 ```txt
@@ -31,12 +31,23 @@ dlib==19.22.0
 playsound==1.3.0
 ```
 
+## Getting Started
 
-## To install the module, use pip
-```python
-pip install <module-name>
+1. Install Python **[Click here](https://www.python.org/downloads/)**
+
+2. Install Git **[Click here](https://git-scm.com/)**
+   
+3. Clone this repository
+```Bash
+git clone https://github.com/rkf2778/Driver-Fatigue-Detection-with-OpenCV-and-Deep-Learning/tree/master
+cd Driver-Fatigue-Detection-with-OpenCV-and-Deep-Learning
 ```
 
+4. Install the modules
+## To install the modules
+```python
+pip install -r requirements.txt
+```
 
 ## To run the app, enter the following code
 ```python
