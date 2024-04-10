@@ -23,6 +23,7 @@ from threading import Thread
 Requirements.txt 
 
 ```txt
+CMake
 imutils==0.5.4
 numpy==1.21.5
 opencv-python==4.5.4.68
