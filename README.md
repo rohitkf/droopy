@@ -24,12 +24,12 @@ Requirements.txt
 
 ```txt
 CMake
-imutils==0.5.4
+opencv-python
+imutils
+dlib
+scipy
+playsound
 numpy==1.21.5
-opencv-python==4.5.4.68
-scipy==1.7.3
-dlib==19.22.0
-playsound==1.3.0
 ```
 
 ## Getting Started
